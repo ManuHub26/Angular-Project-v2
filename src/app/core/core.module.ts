@@ -4,6 +4,7 @@ import {HeaderComponent} from './components/header/header.component';
 import {SharedModule} from "../shared/shared.module";
 import {RouterLinkWithHref} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     CommonModule,
     SharedModule,
+    BrowserAnimationsModule,
     RouterLinkWithHref,
     HttpClientModule
   ],
